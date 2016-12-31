@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>application.Application</OriginalElement>
+  <nodes>
+    <node x="365.403409090909" y="1506.0">application.content.VectorsUI</node>
+    <node x="511.403409090909" y="1807.0">application.frames.MainFrame</node>
+    <node x="430.87499999999994" y="1183.5">application.controllers.vectors.EditController</node>
+    <node x="1946.215909090909" y="0.0">application.shared.Shortcuts</node>
+    <node x="922.215909090909" y="1073.0">application.frames.MainFrameUI</node>
+    <node x="302.0" y="2029.0">application.utils.VectorUtils</node>
+    <node x="580.6136363636363" y="704.0">application.components.JVectorView</node>
+    <node x="116.87499999999994" y="1183.5">application.controllers.vectors.AttachController</node>
+    <node x="814.6420454545454" y="193.5">application.components.JMapView</node>
+    <node x="81.09090909090901" y="193.0">application.structures.DrawnVector</node>
+    <node x="0.0" y="2029.0">application.shared.Commands</node>
+    <node x="1387.215909090909" y="0.0">application.shared.Icons</node>
+    <node x="252.99999999999994" y="34.5">application.structures.DrawnVector.VectorMode</node>
+    <node x="0.0" y="0.0">application.structures.Vector</node>
+    <node x="500.903409090909" y="1909.0">application.Application</node>
+    <node x="676.6420454545454" y="45.5">application.components.VectorChangedListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="application.controllers.vectors.EditController" target="application.components.JVectorView">
+      <point x="98.0" y="-71.0" />
+      <point x="675.875" y="1053.0" />
+      <point x="750.8636363636363" y="1053.0" />
+      <point x="-56.75" y="159.5" />
+    </edge>
+    <edge source="application.content.VectorsUI" target="application.structures.DrawnVector">
+      <point x="-182.875" y="-125.5" />
+      <point x="391.528409090909" y="1486.0" />
+      <point x="106.37499999999994" y="1486.0" />
+      <point x="106.37499999999994" y="684.0" />
+      <point x="114.09090909090901" y="684.0" />
+      <point x="-198.0" y="225.5" />
+    </edge>
+    <edge source="application.content.VectorsUI" target="application.controllers.vectors.AttachController">
+      <point x="-78.375" y="-125.5" />
+      <point x="496.028409090909" y="1466.0" />
+      <point x="337.37499999999994" y="1466.0" />
+      <point x="73.5" y="71.0" />
+    </edge>
+    <edge source="application.content.VectorsUI" target="application.components.JVectorView">
+      <point x="130.625" y="-125.5" />
+      <point x="705.028409090909" y="1476.0" />
+      <point x="911.715909090909" y="1476.0" />
+      <point x="911.715909090909" y="1053.0" />
+      <point x="977.8636363636363" y="1053.0" />
+      <point x="170.25" y="159.5" />
+    </edge>
+    <edge source="application.structures.DrawnVector" target="application.structures.DrawnVector.VectorMode">
+      <point x="-57.75" y="-225.5" />
+      <point x="254.340909090909" y="168.0" />
+      <point x="277.74999999999994" y="168.0" />
+      <point x="-24.75" y="37.0" />
+    </edge>
+    <edge source="application.components.JVectorView" target="application.structures.DrawnVector">
+      <point x="-151.33333333333337" y="-159.5" />
+      <point x="656.2803030303029" y="664.0" />
+      <point x="510.090909090909" y="664.0" />
+      <point x="198.0" y="225.5" />
+    </edge>
+    <edge source="application.structures.DrawnVector" target="application.structures.Vector">
+      <point x="-173.25" y="-225.5" />
+      <point x="138.840909090909" y="168.0" />
+      <point x="116.5" y="168.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="application.components.JVectorView" target="application.components.VectorChangedListener">
+      <point x="0.0" y="-159.5" />
+      <point x="807.6136363636363" y="684.0" />
+      <point x="804.1420454545454" y="684.0" />
+      <point x="42.5" y="26.0" />
+    </edge>
+    <edge source="application.controllers.vectors.AttachController" target="application.structures.DrawnVector">
+      <point x="36.75" y="-71.0" />
+      <point x="300.62499999999994" y="1053.0" />
+      <point x="269.37499999999994" y="1053.0" />
+      <point x="269.37499999999994" y="684.0" />
+      <point x="312.090909090909" y="684.0" />
+      <point x="0.0" y="225.5" />
+    </edge>
+    <edge source="application.content.VectorsUI" target="application.frames.MainFrameUI">
+      <point x="182.875" y="-125.5" />
+      <point x="757.278409090909" y="1486.0" />
+      <point x="1132.215909090909" y="1486.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="application.controllers.vectors.AttachController" target="application.components.JVectorView">
+      <point x="110.25" y="-71.0" />
+      <point x="374.12499999999994" y="1053.0" />
+      <point x="637.3636363636363" y="1053.0" />
+      <point x="-170.25" y="159.5" />
+    </edge>
+    <edge source="application.structures.DrawnVector" target="application.components.VectorChangedListener">
+      <point x="173.25" y="-225.5" />
+      <point x="485.340909090909" y="168.0" />
+      <point x="719.1420454545454" y="168.0" />
+      <point x="-42.5" y="26.0" />
+    </edge>
+    <edge source="application.components.JVectorView" target="application.components.JMapView">
+      <point x="151.33333333333337" y="-159.5" />
+      <point x="958.9469696969696" y="684.0" />
+      <point x="1054.1420454545455" y="684.0" />
+      <point x="0.0" y="225.0" />
+    </edge>
+    <edge source="application.content.VectorsUI" target="application.controllers.vectors.EditController">
+      <point x="26.125" y="-125.5" />
+      <point x="600.528409090909" y="1456.0" />
+      <point x="651.375" y="1456.0" />
+      <point x="73.5" y="71.0" />
+    </edge>
+    <edge source="application.structures.DrawnVector.VectorMode" target="application.structures.DrawnVector">
+      <point x="24.75" y="37.0" />
+      <point x="327.24999999999994" y="168.0" />
+      <point x="369.840909090909" y="168.0" />
+      <point x="57.75" y="-225.5" />
+    </edge>
+    <edge source="application.Application" target="application.frames.MainFrame">
+      <point x="0.0" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="application.frames.MainFrame" target="application.content.VectorsUI">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="application.controllers.vectors.EditController" target="application.structures.DrawnVector">
+      <point x="-98.0" y="-71.0" />
+      <point x="479.87499999999994" y="1043.0" />
+      <point x="527.0511363636363" y="1043.0" />
+      <point x="527.0511363636363" y="684.0" />
+      <point x="378.090909090909" y="684.0" />
+      <point x="66.0" y="225.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.36363636363636365" x="1216.0" y="1106.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
