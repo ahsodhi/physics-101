@@ -1,4 +1,7 @@
-# physics-101
+# Physics-101
 
-This project was made in IntelliJ IDE using the Java language and the Model-View-Controller (MVC) architecture.<br/>
-The main executable for the application is contained in program.zip
+![Screenshot](/Source Code/Screenshot.png?raw=true)
+
+This software generates wave diagram given the wave properties.
+Written in Java.
+Designed with the MVC architecture.
