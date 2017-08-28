@@ -1,4 +1,4 @@
-# Physics-101
+# Physics 101
 
 <img src="/Source Code/Screenshot.png?raw=true" />
 
